@@ -6,7 +6,7 @@ class my_unit_tests(unittest.TestCase):
     def test_add(self):
         
         # test adding integers
-        self.assertEqual(my_add(2, 6), 5)
+        self.assertEqual(my_add(2, 3), 5)
 
         # test adding negative integers
         self.assertEqual(my_add(-1, -2), -3)
