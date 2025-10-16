@@ -14,13 +14,13 @@ merged_df = pd.merge(
 )
 
 # === 3. Choose countries to plot ===
-countries = ['United Kingdom', 'Germany', 'France']  # You can change this list
+countries = ['United Kingdom', 'United States']  # You can change this list
 
 # === 4. Create figure ===
 fig, ax1 = plt.subplots(figsize=(12,6))
 
 # Colors for each country (extend list if needed)
-colors = ['tab:blue', 'tab:green', 'tab:red', 'tab:purple', 'tab:orange']
+colors = ['tab:blue', 'tab:red']
 
 # === 5. Plot working hours (Left Y-axis) ===
 for i, country in enumerate(countries):
